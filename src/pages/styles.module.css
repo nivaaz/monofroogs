@@ -1,0 +1,30 @@
+.monoheader{
+    border: 4px solid #FF007A;
+}
+.monofrooggrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #333;
+}
+.monofroogimg{
+    width: 40vw;
+    height:40vw;
+}
+.frame{
+   color: white;
+   margin: auto;
+}
+.pinkimg{
+    max-width: 98vw;
+    border-right: 4px solid #FF007A;
+}
+.heading{
+    border-left: 4px solid #7D5FFF;
+    padding-left: 16px;
+}
+.monoheaderandtitle{
+    display: flex;
+}
+.title{
+    margin:auto;
+}

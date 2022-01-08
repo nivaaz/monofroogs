@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,500;0,600;0,700;1,300;1,700&display=swap');
+.App{
+  max-width: 900px;
+  margin: 0 auto;
+}
+section{
+  display: flex;
+  padding: 32px;
+}
+.cta{
+  display:flex;
+  justify-content: flex-end;
+}
+.big-butterfly{
+  right: 0;
+  height: 100px;
+  padding-top: 100px;
+  position: absolute;
+}
+button{
+  padding: 16px;
+  font-size: large;
+  border-radius: 32px;
+  border: none;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #7D5FFF40;
+  cursor: pointer;
+  box-shadow: -6px 24px 24px rgba(17, 17, 17, 0.16);
+  border: 2px solid #7D5FFF;
+}
+button:hover{
+  box-shadow: -6px -6px 24px rgba(17, 17, 17, 0.16);
+  transform: translateX(-8px);
+}
+/* section */
+section{
+  display: grid;
+}
+.header{
+  height: min-content;
+  z-index: 0;
+  max-width: 100vw;
+  padding: 0;
+  margin-bottom: -10px;
+}
+
+.primary{
+  background-color: #eee;
+  box-shadow: 0px 4px 32px rgba(85, 85, 85, 0.25);
+}
+.secondary{
+  background-color: #111;
+  color: white; 
+  border-radius: 32px;
+}
+.tertiary{
+  border: 8px solid #111;
+}
+.tertiary:hover{
+  box-shadow: 0px 2px 8px #7D5FFF;
+  border-radius: 4px;
+  border-left-color: #7D5FFF;
+}
+.secondary:hover{
+ border-left: 4px solid #7D5FFF;
+}
+/* fonts */
+a:visited{
+  color: #aaa;
+}
+a.white{
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: #7D5FFF;
+}
+@media screen and (min-width: 900px) {
+  .large{
+    font-size:72px; 
+    margin: 0;
+  }
+  .medium{
+    font-size: 64px;
+  }
+  .small{
+    font-size: 24px; 
+  }
+  .dual-cards{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media screen and (min-width: 370px) and (max-width: 899px) {
+  .large{
+    font-size:48px; 
+    margin: 0;
+  }
+  .medium{
+    font-size: 32px;
+  }
+  .small{
+    font-size: 18px; 
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 369px) {
+  .large{
+    font-size:28px; 
+    margin: 0;
+  }
+  .medium{
+    font-size: 24px;
+  }
+  .small{
+    font-size: 18px; 
+  }
+  .dual-cards{
+    flex-direction: row;
+  }
+}
+.r-mono{
+  font-family: 'Roboto Mono', monospace;
+}
+.b-neue{
+  font-family: 'Bebas Neue', cursive;
+}
+.b-neue:hover{
+  text-decoration: underline;
+  text-decoration-color: #7D5FFF;
+  transform: translateY(-4px);
+}
+
+.white-text{
+  color: white;
+}
+
+/* 
+ */
+.nav{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top:40vh;
+  right: 0;
+  width: min-content;
+}
+.innav{
+  padding: 8px;
+  border-radius: 0px 8px 12px 16px;
+  display: grid;
+  margin-top: 10vh;
+  background-color: #ffffff50;
+  position: absolute;
+}
+.nav-item{
+  margin: 8px auto;
+}
