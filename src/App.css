@@ -37,9 +37,10 @@ section{
   display: grid;
 }
 .header{
+  display: flex;
   height: min-content;
   z-index: 0;
-  max-width: 100vw;
+  width: 99vw;
   padding: 0;
   margin-bottom: -10px;
 }
@@ -141,7 +142,7 @@ a{
 .nav{
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top:40vh;
+  top:30vh;
   right: 0;
   width: min-content;
 }
@@ -154,5 +155,5 @@ a{
   position: absolute;
 }
 .nav-item{
-  margin: 8px auto;
+  margin: 16px auto;
 }

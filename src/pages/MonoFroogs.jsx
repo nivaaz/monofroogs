@@ -6,13 +6,13 @@ import styles from "./styles.module.css";
 export const MonoFroogs = () => {
   const froogs = monofroogs.map((item) => {
     return (
-      
       <div className={styles.frame}>
-           
-        <img src={item.url} className={styles.monofroogimg} alt={item.name} />
+        <a href={item.url}>
+       <img src={item.img} className={styles.monofroogimg} alt={item.name} />
         <div className="b-neue">
             <i className={styles.heading}> {item.name} </i>
         </div>
+      </a>
       </div>
     );
   });

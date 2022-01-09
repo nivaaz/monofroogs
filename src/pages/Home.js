@@ -2,6 +2,9 @@ import { ReactComponent as HeaderImage } from "../assets/header.svg";
 import { ReactComponent as Butterfly } from "../assets/crystalButterfly.svg";
 import "../App.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { LinkPreview } from "@dhaiwat10/react-link-preview";
 
 export const Home=()=> {
   return (
@@ -29,7 +32,6 @@ export const Home=()=> {
         </section>
 
         <section className="tertiary r-mono small">
-          {" "}
           Each froog has it’s own story that we’ll never tell.
         </section>
         <section className="dual-cards">
@@ -45,7 +47,6 @@ export const Home=()=> {
           <div className="dual-cards">
             {" "}
             <div>
-              {" "}
               We’ll be releasing on solsea, because nobody wants to be paying
               high gas fees. 🌊
             </div>
@@ -55,10 +56,10 @@ export const Home=()=> {
 
         <section>
           <div className="b-neue large"> Roadmap 🧭</div>
-          <div className="r-mono small"> Monofroogs </div>
-          <div className="r-mono small"> Full colour Froogs </div>
-          <div className="r-mono small"> Crystal fly </div>
-          <div className="r-mono small"> Mega crystal fly collection </div>
+          <div className="r-mono small"> 1. Monofroogs </div>
+          <div className="r-mono small"> 2. Full colour Froogs </div>
+          <div className="r-mono small"> 3. Crystal fly </div>
+          <div className="r-mono small"> 4. Mega crystal fly collection </div>
         </section>
         <section>
           <div className="r-mono">
@@ -66,28 +67,34 @@ export const Home=()=> {
             battle it out in the pond, so stay tunned!
           </div>
         </section>
-        <section>
-          <div className="b-neue large"> the creator👋 </div>
-          <div className="r-mono small">
-            The creator of this collection is a growth engineer from Australia.
-            She’s always loved design, crypto and tech and is hoping to mix her
-            two loves together.{" "}
-          </div>
-          <div className="r-mono small">
-            Check out Nivaaz’s website to learn more about her. Alternatively
-            learn to code, design or just browse some art of hers.{" "}
-          </div>
-        </section>
-        <section className="secondary r-mono">
-         <a className="white" href="https://twitter.com/froogs_nft"> <div>
-            We’re brand new, but still growing, so join us on twitter.
-          </div>
+        <section className="r-mono cta">
+         <a rel="noreferrer" href="https://twitter.com/froogs_nft"> 
+         <button>
+           Keep up to date with us on <FontAwesomeIcon icon={faTwitter}/>  ➜
+           </button>
           </a>
         </section>
         <section>
+          <a rel="noreferrer" href="/creators"><div className="b-neue large"> the creator👋 </div></a>
+          <p className="r-mono small">
+            The creator of this collection is a growth engineer from Australia.
+            She’s always loved design, crypto and tech and is hoping to mix her
+            two loves together.
+          </p>
+          <p className="r-mono small">
+            Check out Nivaaz’s website to learn more about her. Alternatively
+            learn to code, design or just browse some art of hers.{" "}
+          </p>
           <div className="cta">
-            <button> Check out the collection on solsea ➜</button>
+          <a rel="noreferrer" href="/creators"><button> Find out more about Nivaaz ➜</button></a>
           </div>
+        </section>
+
+     
+        
+        <section className="secondary">
+          <p className="b-neue medium"> Now you know all about the collection, check it out on Solsea. </p>
+         <LinkPreview url="https://solsea.io/collection/61d151b05725cb14470a95e1"/>
         </section>
       </div>
     </>

@@ -3,6 +3,7 @@ import "./App.css";
 import { Home } from "./pages/Home";
 import { Nav } from "./Nav";
 import { MonoFroogs } from "./pages/MonoFroogs";
+import { Creator } from "./pages/creator/Creator";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="mono-froogs" element={<MonoFroogs />} />
+      <Route path="creators" element={<Creator />} />
     </Routes> 
     </BrowserRouter>
     </>

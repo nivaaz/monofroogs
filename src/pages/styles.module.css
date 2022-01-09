@@ -21,6 +21,9 @@
 .heading{
     border-left: 4px solid #7D5FFF;
     padding-left: 16px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: large;
 }
 .monoheaderandtitle{
     display: flex;

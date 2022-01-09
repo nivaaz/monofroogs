@@ -9,34 +9,42 @@ import froog7 from "./monofroogs/Monofroog 7.png";
 export const monofroogs = [
     {
         name: 'Monofroog looking up',
-        url: froog1
+        img: froog1,
+        url:"https://solsea.io/nft/7ZR2AxAmigenpaJhweDm9N7pLeXJQ1yHAbnzy5V9NKoL",
     },
     {
         name: 'Monofroog looking left',
-        url: froog2
+        img: froog2,
+        url:"https://solsea.io/nft/DHXAq2vrMhJhor1Ui9FwqnPTbWtpWVpSRnnQJd5NhnaY",
     },
     {
         name: 'Concerned Monofroog looking left',
-        url: froog3
+        img: froog3,
+        url:"https://solsea.io/nft/8uKxHXTjpJve9YjiwJxa9cV6zQsvXcj6ZJUzM8eCWBD9",
     },
     {
         name: 'Monofroog looking up',
-        url: froog1
+        img: froog1,
+        url:"https://solsea.io/nft/3M8jSssJf1Ww8iuXuPGBLjZJr42SSJW8zew9SdRKSXMA",
     },
     {
         name: 'Happy Monofroog',
-        url: froog4
+        img: froog4,
+        url:"https://solsea.io/nft/DXCUABBYYaSYvfJD1eJVDngFomq5CscKYrES4SVfkBeq",
     },
     {
         name: 'Looking right monofroog',
-        url: froog5
+        img: froog5,
+        url:"https://solsea.io/nft/7jZXx24tmc3VQSxB3qRjsxUnAL3QFJkV65B9Lz1cRm9A",
     },
     {
         name: 'Sparkle eye monofroog',
-        url: froog6
+        img: froog6,
+        url:"https://solsea.io/nft/7ZR2AxAmigenpaJhweDm9N7pLeXJQ1yHAbnzy5V9NKoL",
     },
     {
         name: 'Concerned monofroog with sparkle eye',
-        url: froog7
+        img: froog7,
+        url:"",
     },
 ]
