@@ -7,7 +7,7 @@ export const MonoFroogs = () => {
   const froogs = monofroogs.map((item) => {
     return (
       <div className={styles.frame}>
-        <a href={item.url}>
+        <a rel="noreferrer" href={item.url}>
        <img src={item.img} className={styles.monofroogimg} alt={item.name} />
         <div className="b-neue">
             <i className={styles.heading}> {item.name} </i>

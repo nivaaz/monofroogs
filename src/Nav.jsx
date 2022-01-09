@@ -10,7 +10,7 @@ export const Nav = () => {
   return (
     <div className="nav">
     <div className="innav">
-      <a rel="noreferrer" href="/">
+      <a rel="noreferrer" href="/" >
         <FontAwesomeIcon icon={faHome} className="nav-item"/>
         </a>
       <a rel="noreferrer" href="https://twitter.com/froogs_nft" target="_blank">

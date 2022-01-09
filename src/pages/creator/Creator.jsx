@@ -13,7 +13,7 @@ import styles from "./styles.module.css";
 export const Creator = () => {
   return (
     <div className="App">
-<SocialMedia/>
+      <SocialMedia />
       <section className="secondary">
         <p className="r-mono large">
           Hey I'm Nivaaz, the creator of Froogs. 👋
@@ -26,7 +26,7 @@ export const Creator = () => {
         <h2 className="b-neue medium"> What do you do tho </h2>
         <p className="r-mono small">
           I'm currently working as a growth engineer at a startup
-          <a href="eucalyptus.vc" target="_blank">
+          <a rel="noreferrer" href="eucalyptus.vc" target="_blank">
             eucalyptus.vc
           </a>
           in Australia. 💉👩🏻‍💻
@@ -53,9 +53,7 @@ export const Creator = () => {
             </ul>
           </p>
         </div>
-        <h2 className="b-neue medium">
-          What inspired you to get into design?
-        </h2>
+        <h2 className="b-neue medium">What inspired you to get into design?</h2>
         <p className="r-mono small">
           I've always had a creative knack and I'm pretty much always designing
           on Figma, Canva or Vectary in my spare time.
@@ -63,7 +61,15 @@ export const Creator = () => {
         <p className="r-mono small">
           You just know there is a 3D collection on it's way.
         </p>
-        <a className="r-mono" target="_blank" href="https://solsea.io/nft/F5FdJE8GkvYAeeirVjoUsVeHTiJGGbMqjZJG35YEM2nU"> View 3D NFT on Solsea </a>
+        <a
+          rel="noreferrer"
+          className="r-mono"
+          target="_blank"
+          href="https://solsea.io/nft/F5FdJE8GkvYAeeirVjoUsVeHTiJGGbMqjZJG35YEM2nU"
+        >
+          {" "}
+          View 3D NFT on Solsea{" "}
+        </a>
       </section>
       <section>
         <h2 className="b-neue medium">
@@ -82,64 +88,54 @@ export const Creator = () => {
         <button> Subscribe on Medium </button>
       </section>
       <section>
-      <h2 className="b-neue medium"> Made anything related to NFTs yet? </h2>
-      <p className="r-mono small">
-        To help all those Solsea NFT collection creators, I created a template
-        for marketing materials you need to upload on Figma.
-      </p>
-      <LinkPreview url="https://www.figma.com/community/file/1061818933860166454" />
+        <h2 className="b-neue medium"> Made anything related to NFTs yet? </h2>
+        <p className="r-mono small">
+          To help all those Solsea NFT collection creators, I created a template
+          for marketing materials you need to upload on Figma.
+        </p>
+        <LinkPreview url="https://www.figma.com/community/file/1061818933860166454" />
       </section>
-<SocialMedia/>
+      <SocialMedia />
     </div>
   );
 };
 
-
-const SocialMedia = () =>{
-    return (
-        <section className={styles.socialContainer}>
-        <a
-          rel="noreferrer"
-          href="https://twitter.com/nivaaz_nft"
-          target="_blank"
-        >
-          <FontAwesomeIcon icon={faTwitter} size="2x" />
-        </a>
-        <a
-          rel="noreferrer"
-          href="https://www.figma.com/@nivaaz"
-          target="_blank"
-        >
-          <FontAwesomeIcon icon={faFigma} size="2x" />
-        </a>
-        <a
-          rel="noreferrer"
-          href="https://au.linkedin.com/in/nivaaz"
-          target="_blank"
-        >
-          <FontAwesomeIcon icon={faLinkedin} size="2x" />
-        </a>
-        <a
-          rel="noreferrer"
-          href="https://dribbble.com/nivaaaaaz"
-          target="_blank"
-        >
-          <FontAwesomeIcon icon={faDribbble} size="2x" />
-        </a>
-        <a rel="noreferrer" href="https://medium.com/@nivaaz" target="_blank">
-          <FontAwesomeIcon icon={faMediumM} size="2x" />
-        </a>
-        <a rel="noreferrer" href="https://instagram.com/nivaaaaaz" target="_blank">
-          <FontAwesomeIcon icon={faInstagram} size="2x" />
-        </a>
-        <a
-          rel="noreferrer"
-          href="https://solsea.io/creator/61d10049989845854b69c14a/nfts"
-          target="_blank"
-        >
-          <Solsea />
-        </a>
-      </section>
-
-    )
-}
+const SocialMedia = () => {
+  return (
+    <section className={styles.socialContainer}>
+      <a rel="noreferrer" href="https://twitter.com/nivaaz_nft" target="_blank">
+        <FontAwesomeIcon icon={faTwitter} size="2x" />
+      </a>
+      <a rel="noreferrer" href="https://www.figma.com/@nivaaz" target="_blank">
+        <FontAwesomeIcon icon={faFigma} size="2x" />
+      </a>
+      <a
+        rel="noreferrer"
+        href="https://au.linkedin.com/in/nivaaz"
+        target="_blank"
+      >
+        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+      </a>
+      <a rel="noreferrer" href="https://dribbble.com/nivaaaaaz" target="_blank">
+        <FontAwesomeIcon icon={faDribbble} size="2x" />
+      </a>
+      <a rel="noreferrer" href="https://medium.com/@nivaaz" target="_blank">
+        <FontAwesomeIcon icon={faMediumM} size="2x" />
+      </a>
+      <a
+        rel="noreferrer"
+        href="https://instagram.com/nivaaaaaz"
+        target="_blank"
+      >
+        <FontAwesomeIcon icon={faInstagram} size="2x" />
+      </a>
+      <a
+        rel="noreferrer"
+        href="https://solsea.io/creator/61d10049989845854b69c14a/nfts"
+        target="_blank"
+      >
+        <Solsea />
+      </a>
+    </section>
+  );
+};
