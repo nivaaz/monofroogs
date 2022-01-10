@@ -12,8 +12,8 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="mono-froogs" element={<MonoFroogs />} />
-      <Route path="creators" element={<Creator />} />
+      <Route path="/mono-froogs" element={<MonoFroogs />} />
+      <Route path="/creators" element={<Creator />} />
     </Routes> 
     </BrowserRouter>
     </>
