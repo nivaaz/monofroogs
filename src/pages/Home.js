@@ -1,5 +1,6 @@
 import { ReactComponent as HeaderImage } from "../assets/header.svg";
 import { ReactComponent as Butterfly } from "../assets/crystalButterfly.svg";
+import { ReactComponent as Duofroogs } from "../assets/duofroogs.svg";
 import "../App.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -97,6 +98,7 @@ export const Home=()=> {
          <LinkPreview url="https://solsea.io/collection/61d151b05725cb14470a95e1"/>
         </section>
       </div>
+      <Duofroogs className="footerHome"/>
     </>
   );
 }

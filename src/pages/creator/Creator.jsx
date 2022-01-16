@@ -27,9 +27,9 @@ export const Creator = () => {
         <p className="r-mono small">
           I'm currently working as a growth engineer at a startup
           <a rel="noreferrer" href="eucalyptus.vc" target="_blank">
-            eucalyptus.vc
+          {" "} eucalyptus.vc {" "} 
           </a>
-          in Australia. 💉👩🏻‍💻
+           in Australia. 💉👩🏻‍💻
         </p>
         <div className="dual-cards">
           <p className="r-mono small">
